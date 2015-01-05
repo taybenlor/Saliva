@@ -1,0 +1,6 @@
+build/
+project.xcworkspace/
+.DS_Store
+xcuserdata/
+Pods/
+

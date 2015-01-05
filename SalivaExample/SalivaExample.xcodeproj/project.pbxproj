@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B572EE3C1A4A207200EDAC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572EE3B1A4A207200EDAC7F /* AppDelegate.swift */; };
+		B572EE3E1A4A207200EDAC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572EE3D1A4A207200EDAC7F /* ViewController.swift */; };
+		B572EE411A4A207200EDAC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B572EE3F1A4A207200EDAC7F /* Main.storyboard */; };
+		B572EE431A4A207200EDAC7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B572EE421A4A207200EDAC7F /* Images.xcassets */; };
+		B572EE461A4A207200EDAC7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B572EE441A4A207200EDAC7F /* LaunchScreen.xib */; };
+		B572EE521A4A207200EDAC7F /* SalivaExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572EE511A4A207200EDAC7F /* SalivaExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B572EE4C1A4A207200EDAC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B572EE2E1A4A207200EDAC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B572EE351A4A207200EDAC7F;
+			remoteInfo = SalivaExample;
+		};
+		B5DA822A1A59600100C296B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DA82251A59600100C296B5 /* Saliva.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B509A22B1A3992570069A1E3;
+			remoteInfo = Saliva;
+		};
+		B5DA822C1A59600100C296B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DA82251A59600100C296B5 /* Saliva.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B509A2361A3992570069A1E3;
+			remoteInfo = SalivaTests;
+		};
+		B5DA822E1A59600D00C296B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DA82251A59600100C296B5 /* Saliva.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B509A22A1A3992570069A1E3;
+			remoteInfo = Saliva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B572EE361A4A207200EDAC7F /* SalivaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalivaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B572EE3A1A4A207200EDAC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B572EE3B1A4A207200EDAC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B572EE3D1A4A207200EDAC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B572EE401A4A207200EDAC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B572EE421A4A207200EDAC7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B572EE451A4A207200EDAC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B572EE4B1A4A207200EDAC7F /* SalivaExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalivaExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B572EE501A4A207200EDAC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B572EE511A4A207200EDAC7F /* SalivaExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalivaExampleTests.swift; sourceTree = "<group>"; };
+		B5DA82251A59600100C296B5 /* Saliva.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Saliva.xcodeproj; path = ../Saliva.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B572EE331A4A207200EDAC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B572EE481A4A207200EDAC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B572EE2D1A4A207200EDAC7F = {
+			isa = PBXGroup;
+			children = (
+				B5DA82251A59600100C296B5 /* Saliva.xcodeproj */,
+				B572EE381A4A207200EDAC7F /* SalivaExample */,
+				B572EE4E1A4A207200EDAC7F /* SalivaExampleTests */,
+				B572EE371A4A207200EDAC7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B572EE371A4A207200EDAC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B572EE361A4A207200EDAC7F /* SalivaExample.app */,
+				B572EE4B1A4A207200EDAC7F /* SalivaExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B572EE381A4A207200EDAC7F /* SalivaExample */ = {
+			isa = PBXGroup;
+			children = (
+				B572EE3B1A4A207200EDAC7F /* AppDelegate.swift */,
+				B572EE3D1A4A207200EDAC7F /* ViewController.swift */,
+				B572EE3F1A4A207200EDAC7F /* Main.storyboard */,
+				B572EE421A4A207200EDAC7F /* Images.xcassets */,
+				B572EE441A4A207200EDAC7F /* LaunchScreen.xib */,
+				B572EE391A4A207200EDAC7F /* Supporting Files */,
+			);
+			path = SalivaExample;
+			sourceTree = "<group>";
+		};
+		B572EE391A4A207200EDAC7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B572EE3A1A4A207200EDAC7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B572EE4E1A4A207200EDAC7F /* SalivaExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B572EE511A4A207200EDAC7F /* SalivaExampleTests.swift */,
+				B572EE4F1A4A207200EDAC7F /* Supporting Files */,
+			);
+			path = SalivaExampleTests;
+			sourceTree = "<group>";
+		};
+		B572EE4F1A4A207200EDAC7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B572EE501A4A207200EDAC7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DA82261A59600100C296B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA822B1A59600100C296B5 /* Saliva.framework */,
+				B5DA822D1A59600100C296B5 /* SalivaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B572EE351A4A207200EDAC7F /* SalivaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B572EE551A4A207200EDAC7F /* Build configuration list for PBXNativeTarget "SalivaExample" */;
+			buildPhases = (
+				B572EE321A4A207200EDAC7F /* Sources */,
+				B572EE331A4A207200EDAC7F /* Frameworks */,
+				B572EE341A4A207200EDAC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DA822F1A59600D00C296B5 /* PBXTargetDependency */,
+			);
+			name = SalivaExample;
+			productName = SalivaExample;
+			productReference = B572EE361A4A207200EDAC7F /* SalivaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B572EE4A1A4A207200EDAC7F /* SalivaExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B572EE581A4A207200EDAC7F /* Build configuration list for PBXNativeTarget "SalivaExampleTests" */;
+			buildPhases = (
+				B572EE471A4A207200EDAC7F /* Sources */,
+				B572EE481A4A207200EDAC7F /* Frameworks */,
+				B572EE491A4A207200EDAC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B572EE4D1A4A207200EDAC7F /* PBXTargetDependency */,
+			);
+			name = SalivaExampleTests;
+			productName = SalivaExampleTests;
+			productReference = B572EE4B1A4A207200EDAC7F /* SalivaExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B572EE2E1A4A207200EDAC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ben Taylor";
+				TargetAttributes = {
+					B572EE351A4A207200EDAC7F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B572EE4A1A4A207200EDAC7F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B572EE351A4A207200EDAC7F;
+					};
+				};
+			};
+			buildConfigurationList = B572EE311A4A207200EDAC7F /* Build configuration list for PBXProject "SalivaExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B572EE2D1A4A207200EDAC7F;
+			productRefGroup = B572EE371A4A207200EDAC7F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B5DA82261A59600100C296B5 /* Products */;
+					ProjectRef = B5DA82251A59600100C296B5 /* Saliva.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B572EE351A4A207200EDAC7F /* SalivaExample */,
+				B572EE4A1A4A207200EDAC7F /* SalivaExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B5DA822B1A59600100C296B5 /* Saliva.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Saliva.framework;
+			remoteRef = B5DA822A1A59600100C296B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B5DA822D1A59600100C296B5 /* SalivaTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SalivaTests.xctest;
+			remoteRef = B5DA822C1A59600100C296B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B572EE341A4A207200EDAC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B572EE411A4A207200EDAC7F /* Main.storyboard in Resources */,
+				B572EE461A4A207200EDAC7F /* LaunchScreen.xib in Resources */,
+				B572EE431A4A207200EDAC7F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B572EE491A4A207200EDAC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B572EE321A4A207200EDAC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B572EE3E1A4A207200EDAC7F /* ViewController.swift in Sources */,
+				B572EE3C1A4A207200EDAC7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B572EE471A4A207200EDAC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B572EE521A4A207200EDAC7F /* SalivaExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B572EE4D1A4A207200EDAC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B572EE351A4A207200EDAC7F /* SalivaExample */;
+			targetProxy = B572EE4C1A4A207200EDAC7F /* PBXContainerItemProxy */;
+		};
+		B5DA822F1A59600D00C296B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Saliva;
+			targetProxy = B5DA822E1A59600D00C296B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B572EE3F1A4A207200EDAC7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B572EE401A4A207200EDAC7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B572EE441A4A207200EDAC7F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B572EE451A4A207200EDAC7F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B572EE531A4A207200EDAC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B572EE541A4A207200EDAC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B572EE561A4A207200EDAC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalivaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B572EE571A4A207200EDAC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalivaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B572EE591A4A207200EDAC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SalivaExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalivaExample.app/SalivaExample";
+			};
+			name = Debug;
+		};
+		B572EE5A1A4A207200EDAC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SalivaExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalivaExample.app/SalivaExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B572EE311A4A207200EDAC7F /* Build configuration list for PBXProject "SalivaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B572EE531A4A207200EDAC7F /* Debug */,
+				B572EE541A4A207200EDAC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B572EE551A4A207200EDAC7F /* Build configuration list for PBXNativeTarget "SalivaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B572EE561A4A207200EDAC7F /* Debug */,
+				B572EE571A4A207200EDAC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B572EE581A4A207200EDAC7F /* Build configuration list for PBXNativeTarget "SalivaExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B572EE591A4A207200EDAC7F /* Debug */,
+				B572EE5A1A4A207200EDAC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B572EE2E1A4A207200EDAC7F /* Project object */;
+}
