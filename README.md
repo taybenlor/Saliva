@@ -1,6 +1,6 @@
 # Saliva
 
-Saliva is a simple library for creating bindings in a functional style.
+Saliva is a simple library for creating display synced bindings in a functional style.
 
 
 ## Introduction
